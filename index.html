@@ -3,9 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <header>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <form id="survey-form">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" class="form-control" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" class="form-control" required>
+      </div>
+      <div>
+        <label for="age">Age <span>(optional)</span></label>
+        <input type="age" name="age" id="age" placeholder="Enter your age" class="form-control" required>
+      </div>
+    </form>
   </body>
 </html>
