@@ -13,3 +13,22 @@
 .comments {
   display: block;
 }
+
+#survey-form {
+  background-color: #1b1b32;
+  color: #faebd7;
+  font-family: sans-serif;
+  width: 80vh;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+header {
+  width: 80vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-control {
+  margin: 4px 0;
+}
